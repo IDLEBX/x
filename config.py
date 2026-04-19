@@ -12,7 +12,7 @@ if not BOT_TOKEN:
 # ================== إعدادات الدفع ==================
 CURRENCY = "ليرة سورية جديدة"
 SUBSCRIPTION_PRICE = 50
-FREE_IMAGES_LIMIT = 3
+FREE_IMAGES_LIMIT = 1
 
 # ================== قنوات الاشتراك الإجباري ==================
 REQUIRED_CHANNELS = [
