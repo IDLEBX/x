@@ -1,0 +1,8 @@
+*.pyc
+__pycache__/
+users_data.json
+payments_data.json
+images/
+results/
+.env
+*.log
