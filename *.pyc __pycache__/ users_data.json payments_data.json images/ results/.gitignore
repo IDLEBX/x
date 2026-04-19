@@ -4,5 +4,6 @@ users_data.json
 payments_data.json
 images/
 results/
+receipts/
 .env
 *.log
