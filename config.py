@@ -3,11 +3,11 @@ import os
 
 # ================== الإعدادات العامة ==================
 # جلب التوكن من متغيرات البيئة (ضروري لـ Kuberns)
-BOT_TOKEN = os.environ.get("8750212626:AAEifhF3r_rZZY-HG7a-ldu7ztrsTDlJd8M", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
 # إذا لم يكن موجوداً، اطلبه (للتشغيل المحلي فقط)
 if not BOT_TOKEN:
-    BOT_TOKEN = input("8750212626:AAEifhF3r_rZZY-HG7a-ldu7ztrsTDlJd8M: ")
+    BOT_TOKEN = input("أدخل توكن البوت: ")
 
 # ================== إعدادات الدفع ==================
 CURRENCY = "ليرة سورية جديدة"
